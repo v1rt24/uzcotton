@@ -1,0 +1,63 @@
+@import './reset.css';
+@import './fonts.css';
+@import './variables.css';
+@import './header.css';
+
+/* === Общие стили === */
+
+body {
+  min-width: 360px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: var(--color-dark);
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+/* Контейнер */
+
+.container {
+  max-width: 1360px;
+  box-sizing: content-box;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+/* h1 */
+
+.h1_60 {
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.h1_72 {
+  font-weight: 600;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+/* h2 */
+.h2_48 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.h2_56 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 100%;
+}
+
+/*  */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  */
+
+button {
+  font-family: inherit;
+}
